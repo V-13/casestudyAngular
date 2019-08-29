@@ -17,7 +17,7 @@ export class ViewauthorComponent implements OnInit {
     this.apiservice.viewauthor().subscribe((response:Array<object>)=>{
       console.log(response);
       this.mydata=response;
-  })
+  });
 
 }
 }
